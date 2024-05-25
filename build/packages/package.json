@@ -1,0 +1,22 @@
+{
+  "name": "melvynx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ganttChart": "sass --watch frontend/src/sass/build.scss frontend/scr/css/build.css",
+    "build":"echo build component",
+    "groqContext":"node initContext",
+    "groqrole":"node initROle.js",
+    "gadd":"git add .",
+    "gca":"git commit -m 'init brainstromint'",
+    "gcp":"git add .",
+    "gcf":"git add .",
+    "about":"node singlePage.js",
+    "howto":"echo build component frontend documentation"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU"
+}
