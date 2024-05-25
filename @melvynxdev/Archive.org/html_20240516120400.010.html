@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instance Data</title>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <div>{{content}}</div>
+</body>
+</html>
+```
+
+Remplacez `{{title}}` et `{{content}}` par les valeurs correspondantes dans l'instance sélectionnée.
+
+---
+
+Voici une requête groq pour créer une instance role:assistant,name:@Melvynx :
+
+```groq
+*[_type == 'user' && name == 'Melvynx'] {
+  _id,
+  _type,
+  _rev,
+  role,
+  name,
+  ...
+}
+```
+
+---
+
+Voici une requête groq pour mettre à jour l'instance role:assistant,name:@Melvynx :
+
+```groq
+*[_type == 'user' && name == 'Melvynx'] {
+  _id,
+  _type,
+  _rev,
+  ...
+} | [0] {
+  _rev = _rev,
+  role = 'assistant',
+  ...
+}
+```
+
+---
+
+Voici une requête groq pour supprimer l'instance role:assistant,name:@Melvynx :
+
+```groq
+*[_type == 'user' && name == 'Melvynx'] {
+  _id,
+  _type,
+  _rev,
+  ...
+} | [0]._delete()
+```

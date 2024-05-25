@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brainstorming Session</title>
+  </head>
+  <body>
+    <h1>Brainstorming Session</h1>
+    <div>
+      <p>Role: Assistant</p>
+      <p>Content:</p>
+      <div id="content"></div>
+    </div>
+    <script>
+      // Simulate the response from the system role
+      const response = {
+        role: 'system',
+        name: 'Pi',
+        content: '/devOPs()',
+      };
+
+      // Display the response
+      const contentEl = document.getElementById('content');
+      contentEl.innerText = response.content;
+    </script>
+  </body>
+</html>
