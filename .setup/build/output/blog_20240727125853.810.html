@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telegram Blog</title>
+    <!-- Intégration de CDNJS pour la bibliothèque jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Intégration de GitHub pour le suivi des modifications du code source -->
+    <a href="https://github.com/username/telegram-blog">Code source sur GitHub</a>
+  </head>
+  <body>
+    <h1>Bienvenue sur le blog Telegram</h1>
+    <p>Ceci est un exemple de blog intégrant CDNJS, Git et GitHub.</p>
+    <script>
+      // Utilisation de la bibliothèque jQuery chargée via CDNJS
+      $(document).ready(function () {
+        $("a").click(function (event) {
+          event.preventDefault();
+          alert("Vous allez être redirigé vers le dépôt GitHub.");
+        });
+      });
+    </script>
+  </body>
+</html>

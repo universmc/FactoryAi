@@ -1,0 +1,23 @@
+Voici un exemple de code HTML pour intégrer cdnjs dans un projet web, dans ce cas précis, pour inclure la bibliothèque jQuery :
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <script src="https://cdnjs.com/lib/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+ <h1>Intégration de cdnjs dans un projet web</h1>
+ <script>
+ $(document).ready(function(){
+ $("button").click(function(){
+ $("p").toggle();
+ });
+ });
+ </script>
+ <button>Cliquer ici</button>
+ <p>Ceci est un paragraphe qui sera caché/affiché au clic sur le bouton</p>
+</body>
+</html>

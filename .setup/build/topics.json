@@ -1,0 +1,53 @@
+{
+    "Sections": {
+    "Actualités": {
+    "Sous-sections": [
+    "Agriculture",
+    "Industrie",
+    "Jeux vidéo",
+    "Économie",
+    "Démocratie",
+    "Justice"
+    ]
+    },
+    "Technologie": {
+    "Sous-sections": [
+    "Machine Learning",
+    "Intelligence artificielle",
+    "Prototypage"
+    ]
+    },
+    "Développements": {
+    "Sous-sections": [
+    "Actualités",
+    "Nouvelles tendances"
+    ]
+    },
+    "Analyse": {
+    "Sous-sections": [
+    "Analyse de l'évolution des secteurs",
+    "Meilleures pratiques pour améliorer l'efficacité"
+    ]
+    },
+    "Impact": {
+    "Sous-sections": [
+    "Impact éthique de l'IA",
+    "Impact social des technologies émergentes"
+    ]
+    },
+    "Développement et programmation": {
+    "Sous-sections": [
+    "Programmation orientée IA",
+    "Développement d'applications",
+    "Utilisation de la technologie pour renforcer la participation citoyenne"
+    ]
+    },
+    "City_game": {
+    "Sous-sections": [
+    "Démocratie",
+    "Jeux vidéo"
+    ]
+    }
+    }
+    }
+    

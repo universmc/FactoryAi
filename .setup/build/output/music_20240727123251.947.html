@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Telegram Widgets</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH' crossorigin='anonymous'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id='navBar'></div>
+        </nav>
+    </header>
+    <main>
+        <div id='telegram'>
+            <section class='Telegram'>
+                <article>
+                    <h3>Telegram-widgets</h3>
+                    <figure>
+                        <div id='bootstrap card'></div>
+                    </figure>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div id='road_map'></div>
+    </footer>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz' crossorigin='anonymous'></script>
+    <script>
+        // Référencez les éléments HTML nécessaires
+        const navBar = document.getElementById('navBar');
+        const telegram = document.getElementById('telegram');
+        const bootstrapCard = document.getElementById('bootstrap card');
+        const roadMap = document.getElementById('road_map');
+
+        // Ajoutez le lien de votre bot Telegram à la barre de navigation
+        const botLink = document.createElement('a');
+        botLink.href = 'https://t.me/user_Pibot/';
+        botLink.textContent = 'Telegram Bot';
+        navBar.appendChild(botLink);
+
+        // Ajoutez un lien pour inviter des utilisateurs à rejoindre votre bot Telegram
+        const inviteLink = document.createElement('a');
+        inviteLink.href = 'https://t.me/user_Pibot/invite';
+        inviteLink.textContent = 'Inviter des utilisateurs';
+        navBar.appendChild(inviteLink);
+
+        // Ajoutez le lien de votre bot Telegram dans la section Telegram
+        const botLink2 = document.createElement('a');
+        botLink2.href = 'https://t.me/user_Pibot/';
+        botLink2.textContent = 'Telegram Bot';
+        telegram.appendChild(botLink2);
+
+        // Ajoutez le lien de votre bot Telegram dans la section Telegram
+        const widgetLink = document.createElement('a');
+        widgetLink.href = 'https://core.telegram.org/widgets';
+        widgetLink.textContent = 'Telegram Widgets';
+        telegram.appendChild(widgetLink);
+
+        // Ajoutez le lien de votre bot Telegram dans la section Telegram
+        const githubLink = document.createElement('a');
+        githubLink.href = 'https://github.com/universmc/telegram';
+        githubLink.textContent = 'Code source sur GitHub';
+        telegram.appendChild(githubLink);
+
+        // Ajoutez un lien vers la documentation de Bootstrap dans la carte Bootstrap
+        const bootstrapDoc = document.createElement('a');
+        bootstrapDoc.href = 'https://getbootstrap.com/docs/5.3/getting-started/introduction/';
+        bootstrapDoc.textContent = 'Documentation Bootstrap';
+        bootstrapCard.appendChild(bootstrapDoc);
+
+        // Ajoutez un lien vers la page de validation W3C dans le pied de page
+        const w3cLink = document.createElement('a');
+        w3cLink.href = 'https://validator.w3.org/';
+        w3cLink.textContent = 'Validation W3C';
+        roadMap.appendChild(w3cLink);
+
+        // Ajoutez un lien vers la page d'archive Internet dans le pied de page
+        const archiveLink = document.createElement('a');
+        archiveLink.href = 'https://archive.org/';
+        archiveLink.textContent = 'Archive Internet';
+        roadMap.appendChild(archiveLink);
+    </script>
+</body>
+
+</html>

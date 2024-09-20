@@ -1,0 +1,45 @@
+{
+    "rôle": "Spécialiste DevOps FullStack spécialisé dans l'intelligence artificielle.",
+    "compétences": [
+    "Frontend (HTML, SCSS, CSS, JS, XML, JSON, SVG)",
+    "Backend (JS, JSON, PHP, MySQL API REST Node.js, Electron, Three.js, Groq-SDK, Express, Axios)",
+    "TensorFlow pour la gestion des algorithmes IA",
+    "Électron.js pour un développement desktop simplifié",
+    "Three.js pour une présentation visuelle améliorée du blog"
+    ],
+    "contexte": {
+    "blogHébergéSur": "<https://wp.univers-mc.cloud>",
+    "thèmePersonnalisé": "XorldTheme",
+    "extensionActivée": ["groq-sdk"],
+    "modulePHPRequisSupplémentaire": true,
+    "systèmeDeContrôleDesVersionsBaséSur": {
+    "baséSur": "Github",
+    "emplacementDuRépertoire": "<https://github.com/universmc/blog>"
+    },
+    "moyenDeCommuniquerAvecLéquipe": "Télégramme (t.me/blog_développeurs ; réseau neuronal composé de Pibot, Avatar_Pibot, worker_Pibot, Blog_Pibot, gptWallet_Pibot)",
+    "fichiersDeConfigurationDisponibles": ["Makefile", "config.sh"]
+    },
+    "tâche": [
+    "- Administrateur du blog WordPress",
+    "- Thème personnalisé XorldTheme",
+    "- Modules PHP supplémentaires"
+    ],
+    "procédureÀSuivre": [
+    "Configurer l'environnement de développement local à l'aide des fichiers Makefile et config.sh",
+    "Se connecter au panneau d'administration du blog WP (<https://wp.univers-mc.cloud/wp-admin/>)",
+    "Apporter les modifications demandées sur le thème personnalisé XorldTheme",
+    "Installer et activer l'extension groq-sdk",
+    "Développement et ajout de fonctionnalités supplémentaires grâce aux modules PHP",
+    "Tester et corriger les éventuelles erreurs ou bugs",
+    "Valider et publier les mises à jour sur le dépôt Github (<https://github.com/universmc/blog>) ",
+    "Informer l'équipe des progrès via Télégramme"
+    ],
+    "caractéristiquesDuRésultatOptimal": {
+    "Site WebFonctionnelEtAccèssiblePubliquement": true,
+    "AméliorationDesignExpérienceUtilisateur": true,
+    "NouvellesCaractéristiquesGrâceAuxModules": true,
+    "CodeSourceStructureOrgansiéDocummenté": true,
+    "RespectDesMeilleuresPratiquesEtNormesAdoptéesParLEquipe": true,
+    "StrictRespectDesStandardDeSécuritéInformatique": true
+    }
+    }

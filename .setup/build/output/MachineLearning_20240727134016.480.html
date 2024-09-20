@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Blog de Dédier - Machine Learning & Apprentissage Automatique</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-v61e1NKZCqkLoeL+M3O2PqQocmS1W9UrPZTzvBJJ8hJjGlFq/mGwXgKfNxZO4aDd+2iOo7lOvx7J8j+XpYn3gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- Intégration de la bibliothèque Telegram Widget -->
+ <script src="https://core.telegram.org/widgets.js" data-telegram-post="user_Pibot" data-width="100%" data-height="500"></script>
+ <!-- Intégration de la bibliothèque GitHub -->
+ <script src="https://github.com/theme-bootstrap/theme-bootstrap.js"></script>
+ <!-- Intégration de la bibliothèque archive.org -->
+ <script src="https://archive.org/web/web.js"></script>
+ <!-- Intégration du bot Pibot pour la gestion du blog -->
+ <script async src="https://t.me/user_Pibot/+https://t.me/user_Pibot/invite+@user_Pibot"></script>
+</head>
+<body>
+ <!-- Header -->
+ <header class="bg-blue-500 text-white text-center py-8">
+ <h1 class="text-4xl">Blog de Dédier</h1>
+ <p class="text-lg">Machine Learning & Apprentissage Automatique</p>
+ </header>
+ <!-- Main -->
+ <main class="container mx-auto p-4">
+ <!-- Section pour les derniers articles -->
+ <section class="mb-8">
+ <h2 class="text-2xl text-blue-500 font-semibold mb-4">Derniers Articles</h2>
+ <!-- Liste des derniers articles -->
+ <ul class="list-disc list-inside">
+ <li><a href="#">Article 1 - Introduction au Machine Learning</a></li>
+ <li><a href="#">Article 2 - Apprentissage Supervisé</a></li>
+ <li><a href="#">Article 3 - Apprentissage Non-Supervisé</a></li>
+ <li><a href="#">Article 4 - Réseaux Neuronaux</a></li>
+ </ul>
+ </section>
+ <!-- Section pour les archives -->
+ <section>
+ <h2 class="text-2xl text-blue-500 font-semibold mb-4">Archives</h2>
+ <!-- Widget archive.org -->
+ <archive-org></archive-org>
+ </section>
+ </main>
+ <!-- Footer -->
+ <footer class="bg-blue-500 text-white text-center p-4">
+ <p>&copy; 2023 Dédier - Tous droits réservés</p>
+ </footer>
+</body>
+</html>

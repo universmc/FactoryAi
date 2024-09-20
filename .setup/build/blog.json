@@ -1,0 +1,200 @@
+[       
+    {
+    "titre": "Blog des developpers",
+    "sousSections": [
+        {
+            "sousTitre": "Introduction",
+            "contenu": "Présentation de l'agent IA le développement du projet dchub -app."
+        },
+        {
+            "sousTitre": "Groq-sdk",
+            "contenuMarkdown": "src/md/welcom.md"
+        },
+        {
+            "sousTitre": "sommaire",
+            "contenuMarkdown": "src/md/sommaire.md"
+        },
+        {
+            "sousTitre": "google Agenda",
+            "contenuMarkdown": "src/md/intro.md"
+        }
+        
+    ]
+    },
+    {
+        "titre": "IA",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction",
+                "contenu": "Présentation de l'agent IA le développement du projet dchub -app."
+            },
+            {
+                "sousTitre": "Groq-sdk",
+                "contenuMarkdown": "src/md/welcom.md"
+            },
+            {
+                "sousTitre": "sommaire",
+                "contenuMarkdown": "src/md/sommaire.md"
+            },
+            {
+                "sousTitre": "introduction",
+                "contenuMarkdown": "src/md/intro.md"
+            }
+            
+        ]
+        },
+        {
+            "titre": "Machine Learning",
+            "sousSections": [
+                {
+                    "sousTitre": "Introduction",
+                    "contenu": "Présentation de l'agent IA le développement du projet dchub -app."
+                },
+                {
+                    "sousTitre": "Groq-sdk",
+                    "contenuMarkdown": "src/md/welcom.md"
+                },
+                {
+                    "sousTitre": "sommaire",
+                    "contenuMarkdown": "src/md/sommaire.md"
+                },
+                {
+                    "sousTitre": "introduction",
+                    "contenuMarkdown": "src/md/intro.md"
+                }
+                
+            ]
+            },
+    {
+        "titre": "timeStamps",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction",
+                "contenu": "Présentation de l'agent IA le développement du projet dchub -app."
+            },
+            {
+                "sousTitre": "Groq-sdk",
+                "contenuMarkdown": "src/md/welcom.md"
+            },
+            {
+                "sousTitre": "sommaire",
+                "contenuMarkdown": "src/md/sommaire.md"
+            },
+            {
+                "sousTitre": "introduction",
+                "contenuMarkdown": "src/md/intro.md"
+            }
+            
+        ]
+        },
+    {
+        "titre": "Actualitée",
+        "sousSections": [
+            {
+                "sousTitre": "Introduction",
+                "contenu": "Présentation de l'agent IA le développement du projet dchub -app."
+            },
+            {
+                "sousTitre": "Groq-sdk",
+                "contenuMarkdown": "src/md/welcom.md"
+            },
+            {
+                "sousTitre": "sommaire",
+                "contenuMarkdown": "src/md/sommaire.md"
+            },
+            {
+                "sousTitre": "introduction",
+                "contenuMarkdown": "src/md/intro.md"
+            }
+            
+        ]
+        },
+            {
+                "titre": "Culture",
+                "sousSections": [
+                    {
+                        "sousTitre": "Introduction",
+                        "contenu": "Présentation de l'agent IA le développement du projet dchub -app."
+                    },
+                    {
+                        "sousTitre": "Groq-sdk",
+                        "contenuMarkdown": "src/md/welcom.md"
+                    },
+                    {
+                        "sousTitre": "sommaire",
+                        "contenuMarkdown": "src/md/sommaire.md"
+                    },
+                    {
+                        "sousTitre": "introduction",
+                        "contenuMarkdown": "src/md/intro.md"
+                    }
+                    
+                ]
+                },
+                {
+                    "titre": "Industry",
+                    "sousSections": [
+                        {
+                            "sousTitre": "Introduction",
+                            "contenu": "Présentation de l'agent IA le développement du projet dchub -app."
+                        },
+                        {
+                            "sousTitre": "Groq-sdk",
+                            "contenuMarkdown": "src/md/welcom.md"
+                        },
+                        {
+                            "sousTitre": "sommaire",
+                            "contenuMarkdown": "src/md/sommaire.md"
+                        },
+                        {
+                            "sousTitre": "introduction",
+                            "contenuMarkdown": "src/md/intro.md"
+                        }
+                        
+                    ]
+                    },
+                    {
+                        "titre": "Technologie",
+                        "sousSections": [
+                            {
+                                "sousTitre": "Introduction",
+                                "contenu": "Présentation de l'agent IA le développement du projet dchub -app."
+                            },
+                            {
+                                "sousTitre": "Groq-sdk",
+                                "contenuMarkdown": "src/md/welcom.md"
+                            },
+                            {
+                                "sousTitre": "sommaire",
+                                "contenuMarkdown": "src/md/sommaire.md"
+                            },
+                            {
+                                "sousTitre": "introduction",
+                                "contenuMarkdown": "src/md/intro.md"
+                            }
+                            
+                        ]
+                        },
+                    {
+                        "titre": "Festivals",
+                        "sousSections": [
+                            {
+                                "sousTitre": "Introduction",
+                                "contenu": "Présentation de l'agent IA le développement du projet dchub -app."
+                            },
+                            {
+                                "sousTitre": "Groq-sdk",
+                                "contenuMarkdown": "src/md/welcom.md"
+                            },
+                            {
+                                "sousTitre": "sommaire",
+                                "contenuMarkdown": "src/md/sommaire.md"
+                            },
+                            {
+                                "sousTitre": "introduction",
+                                "contenuMarkdown": "src/md/intro.md"
+                            }
+                            
+                        ]
+                        }
+]
