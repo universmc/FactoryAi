@@ -62,8 +62,8 @@ case $commande in
         gen)
             make gen
             ;;
-        2)
-            make commande2
+        run)
+            make run
             ;;
         3)
             make commande3
