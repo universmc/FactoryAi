@@ -1,17 +1,18 @@
-./
-# ------------------(({ +cal })}------------------------
-    ╔═══════════════════════════════════════════════════════════╗
-    ║               _                                           ║
-    ║   _   _ _ __ (_)_   _____ _ __ ___       _ __ ___   ___   ║
-    ║  | | | | '_ \| \ \ / / _ \ '__/ __|_____| '_ ' _' \| __|  ║
-    ║  | |_| | | | | |\ V /  __/ |  \__ \_____| | | | | | (__   ║
-    ║   \__,_|_| |_|_| \_/ \___|_|  |___/     |_| |_| |_|\___|  ║
-    ║                                                           ║
-    ╚═══════════════════════════════════════════════════════════╝
-# -------------------------------------(({ +regme })}------------------------------
-    ╔═════════════════════════════════════════════════════════════════════════════════╗
-    ║[📗 📕 📒]                🔷   ASCII GRAPH (DIAGRAM)    🔷                       >║   
-    ║[📗 📕 📒]┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈{[┈┈┈┈codex┈┈┈┈┈]}┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈>║   
+-----------------(({ +cal })}---------------------
+```
+        ╔═══════════════════════════════════════════════════════════╗
+        ║               _                                           ║
+        ║   _   _ _ __ (_)_   _____ _ __ ___       _ __ ___   ___   ║
+        ║  | | | | '_ \| \ \ / / _ \ '__/ __|_____| '_ ' _' \| __|  ║
+        ║  | |_| | | | | |\ V /  __/ |  \__ \_____| | | | | | (__   ║
+        ║   \__,_|_| |_|_| \_/ \___|_|  |___/     |_| |_| |_|\___|  ║
+        ║                                                           ║
+        ╚═══════════════════════════════════════════════════════════╝
+```
+----------------(({ +regme })}-----------------
+```
+    ╔═════════════════════════════════════════════════════════════════════════════════╗ 
+    ║[📗 📕 📒]┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈{[┈┈┈┈codex┈┈┈┈┈]}┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈>║   
     ╠═════════════════════════════════════════════════════════════════════════════════╣
     ║                                                                                 ║
     ║                                                                                 ║
@@ -23,23 +24,28 @@
     ╠═════════════════════════════════════════════════════════════════════════════════╣
     ║/💻.📡/<: ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 🛰 ║
     ╚═════════════════════════════════════════════════════════════════════════════════╝
-# -------------------------------------(({ +Corde audio })}-------------------------- 
+```
+------------(({ +Corde audio })}-----------
+```
     ╔──────────────────────────────────────────────────────────────────────────────────╗
     │██├:┈┈┈:┤██┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈:┤██│
     ╚──────────────────────────────────────────────────────────────────────────────────╝
-# -------------------------------------(({ +tensor })}-----------------------------------------------
+```
+------------(({ +tensor })}-----------------
+```
 - tensorBoprders="╔╗╚╝═║╠╣╦╩╬"
 - tensorReplie = '├┤┬┴┼╠╣╩';-
 - tensorRendu = '─│·:░▒▓█';  
-# -------------------------------------(({ +regme })}-----------------------------------------------
-# -------------------------------------(({ +Fibonacci})}---------------------------
+```
+------------(({ +Fibonacci})}---------------
+```
 . ┈ ·· ::: ░░░░░ ▒▒▒▒▒▒ ▓▓▓▓▓▓▓▓▓▓▓▓▓ █████████████████████ :<[Ø] ║
 1 1 2   3    5     8          13              21  
-# -------------------------------------(({ +regme })}------------------------------
-
-# -------------------------------------(({ +codex })}------------------------------
+```
+-----------(({ +regme })}-------------------
+```
     ╔═════════════════════════════════════════════════════════════════════════════════╗
-    ║[📗 📕 📒]┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈{[┈┈┈┈Game-of-Life┈┈┈┈┈]}┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈>║   
+    ║[📗 📕 📒]┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈{[┈┈┈┈Game-of-Life┈┈┈┈┈]}┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈>║   
     ╠════════════════════════════┬════════════════════════════════════════════════════╣
     ║  G                       ║#│                                                    ║
     ║                          ║#│    O╔──────╦──────╦──────╦──────╦──────╦──────╦    ║
@@ -63,7 +69,7 @@
     ╠══════════════════════════╩══════════════════════════════════════════════════════╣
     ║/💻.📡/<: ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 🛰 ║
     ╚═════════════════════════════════════════════════════════════════════════════════╝
-
+```
 
 
 Voici une proposition de structure pour votre exercice, en intégrant les éléments que vous avez mentionnés :
@@ -108,12 +114,11 @@ Soyez attentif aux biais: Soyez vigilant aux stéréotypes ou aux informations e
 Comparez avec d'autres IA: Si possible, comparez les performances de différentes IA sur les mêmes tâches.
 En suivant cette structure, vous pourrez mener une expérience riche et obtenir des résultats significatifs pour mieux comprendre les capacités et les limites des intelligences artificielles actuelles.
 
-
-
 [text](data/workplan.md)
-
+-----------(({ +regme })}-------------------
+```
     ╔═════════════════════════════════════════════════════════════════════════════════╗ 
-    ║[📗 📕 📒]                  🔷   ASCII Grid (case/cell)    🔷                    >║   
+    ║[📗 📕 📒]                🔷   ASCII Grid (case/cell)    🔷                       >║   
     ╠═════════════════════════════════════════════════════════════════════════════════╣
     ║                                                                                 ║
     ║             cln(n1)                                            cln*(n+1)        ║
@@ -135,17 +140,13 @@ En suivant cette structure, vous pourrez mener une expérience riche et obtenir 
     ╠═════════════════════════════════════════════════════════════════════════════════╣
     ║/💻.📡/<: ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 🛰 ║
     ╚═════════════════════════════════════════════════════════════════════════════════╝
-# -------------------------------------(({ +regme })}------------------------------
-
-
-##
+```
+--------(({ +regme })}----------------------------
 
 Bienvenue à la présentation de notre projet, qui vise à exploiter le potentiel de l'intelligence artificielle (IA) dans le domaine de la formation, de la professionnalisation et de la monétisation du travail. Notre projet repose sur la blockchain CVNU et fait partie de l'écosystème Pi Network. Nous utilisons des Smart Contracts et la cryptomonnaie Pi_coins pour mettre en place un modèle économique circulaire basé sur deux zones : la FactoryAi pour la production et le Qi-store pour la commercialisation.
 Notre mission est de démontrer que le travail avec l'IA peut être rentable et qu'il peut contribuer à améliorer la formation, la professionnalisation et la monétisation du travail. Nous visons à créer une entreprise sans employés, basée sur l'IA, qui gère la planification, la production, la commercialisation, la comptabilité, la promotion et la contribution au projet.
 Notre modèle de boucles est une économie circulaire entre la FactoryAi et le Qi-store, qui permettent de mutualiser les efforts de production, de commercialisation et de gestion de l'entreprise. Nous souhaitons révolutionner les processus de travail traditionnels en utilisant l'IA pour automatiser et optimiser la plupart des tâches, tout en offrant une valeur accrue aux utilisateurs et contributeurs du réseau Pi Network.
 Nous espérons que cette présentation vous aidera à mieux comprendre notre vision et nos objectifs pour cette entreprise IA innovante. Nous sommes impatients de partager nos réalisations et de collaborer avec des partenaires potentiels pour faire de cette vision une réalité.
-
-
 
 Analyse de la demande:
 
@@ -159,9 +160,10 @@ Adaptation de la Phase 1:multi Vector > embedding-txt-9b-it
 
 Ces fichiers sont des outils de gestion de projet.
 /Qi-Store CONCEPTION
-# -------------------------------------(({ Qi-store})}-----------------------------------------------
+-----------------(({ Qi-store})}----------------
+```
     ╔═════════════════════════════════════════════════════════════════════════════════╗
-    ║[📗 📕 📒]                  🔷   ASCII GRAPH (EXEL)    🔷                        >║   
+    ║[📗 📕 📒]                   🔷   ASCII GRAPH (EXEL)    🔷                        >║   
     ╠═════════════════════════════════════════════════════════════════════════════════╣
     ║                                                                                 ║
     ║                                                                                 ║
@@ -176,8 +178,7 @@ Ces fichiers sont des outils de gestion de projet.
     ╠═════════════════════════════════════════════════════════════════════════════════╣
     ║/💻.📡/<: ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 🛰 ║
     ╚═════════════════════════════════════════════════════════════════════════════════╝
-
-
+```
 Le concept de "Qi-Store" pourrait être une plateforme de commerce électronique en ligne dédiée aux utilisateurs du réseau Pi Network, où les membres pourraient échanger des produits et des services en utilisant la cryptomonnaie Pi comme moyen de paiement.
 
 # Voici les principales fonctionnalités que pourrait offrir le Qi-Store :
@@ -206,14 +207,13 @@ En particulier, l'intégration à d'autres applications ou services Pi Network p
 Les recommandations personnalisées pourraient également être un moyen efficace de personnaliser l'expérience utilisateur et d'augmenter les ventes, tandis que la communication entre vendeurs et clients pourrait renforcer la confiance entre les parties et contribuer à une expérience d'achat plus satisfaisante.
 Globalement, ces fonctionnalités pourraient contribuer à la création d'un écosystème de commerce électronique durable et complet autour de Pi Network, encourageant les membres de la communauté à utiliser activement la cryptomonnaie Pi pour leurs achats quotidiens.
 
-------------------------------------------------
-# ------------------------(({  Pi Coin })}-------------------------
+# ---------------(({  Pi Coin })}--------------------
 
 
 Le concept "All for One Pi Coin" pourrait être une initiative visant à encourager la communauté de Pi Network à unir ses forces pour soutenir et promouvoir l'utilisation de la cryptomonnaie Pi dans différents domaines, notamment le commerce électronique, la formation en ligne et les NFT. Voici comment ce concept pourrait être appliqué dans chaque domaine :
 
     ╔═════════════════════════════════════════════════════════════════════════════════╗
-    ║[📗 📕 📒]                🔷   ASCII GRAPH (DIAGRAM)    🔷                       >║   
+    ║[📗 📕 📒]               🔷   ASCII GRAPH (DIAGRAM)    🔷                         >║   
     ╠═════════════════════════════════════════════════════════════════════════════════╣
     ║                                                                                 ║
     ║                                                                                 ║
@@ -233,12 +233,10 @@ Le concept "All for One Pi Coin" pourrait être une initiative visant à encoura
     ║                                                                                 ║
     ║                                                                                 ║
     ╠═════════════════════════════════════════════════════════════════════════════════╣
-    ║/💻.📡/<: ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 🛰 ║
+    ║/💻.📡/<: ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 🛰 ║
     ╚═════════════════════════════════════════════════════════════════════════════════╝
 
-
-
-E-commerce
+# E-commerce
 Le concept "All for One Pi Coin" pourrait être appliqué dans le domaine du commerce électronique en encourageant les vendeurs à accepter Pi comme moyen de paiement dans leurs boutiques en ligne. En échange, les membres de Pi Network pourraient s'engager à utiliser Pi pour leurs achats quotidiens, favorisant ainsi la circulation et la valorisation de la cryptomonnaie Pi.
 Formation en ligne
 Dans le domaine de la formation en ligne, le concept "All for One Pi Coin" pourrait encourager les formateurs et les éducateurs à proposer des cours et des programmes de formation en ligne payables en Pi. Les membres de Pi Network pourraient ainsi utiliser leur Pi pour investir dans leur éducation et leur développement personnel, tout en soutenant les initiatives éducatives au sein de la communauté Pi Network.
@@ -258,15 +256,14 @@ Inclusion sociale : Le concept pourrait promouvoir l'inclusion sociale en offran
 En adaptant le concept "All for One Pi Coin" aux principes de Web3 et de la démocratie 2.0, la communauté de Pi Network pourrait ainsi se rapprocher d'un modèle économique et social plus inclusif, transparent et participatif, favorisant la création de valeur partagée pour tous ses membres.
 OK c'est très bien donc on va pas, on va essayer de présenter le concept Qi sotre  et de le paraphraser ça par exemple pour imaginer et présenter le concept "ALL FOR ONE PI coin" sur le format e-mail donc sur le format au cas unique avec des variables ajustables pour chaque utilisateur, ou sous forme d'articles de prêt sous forme de projet technique
 
+-------(({ +FactoryAi })}---------------------------
 
-
-# -------------------------------------(({ +FactoryAi })}-----------------------------
 /FactoryAi CONCEPTION
 
 FactoryAI - Une plateforme de développement d'applications et de services pour Pi Network
 FactoryAI est une plateforme en ligne conçue pour aider les développeurs et les créateurs de contenu à développer et déployer des applications, des services et des produits numériques au sein de Pi Network. Elle fournit un environnement de développement intégré (IDE) et un kit de développement logiciel (SDK) pour faciliter la création d'applications qui utilisent la technologie blockchain de Pi Network et ses fonctionnalités natives.
 Principales fonctionnalités de FactoryAI
-
+```
     ╔═════════════════════════════════════════════════════════════════════════════════╗
     ║[📗 📕 📒]                🔷   ASCII GRAPH (DIAGRAM)    🔷                       >║   
     ╠═════════════════════════════════════════════════════════════════════════════════╣
@@ -285,8 +282,7 @@ Principales fonctionnalités de FactoryAI
     ╠═════════════════════════════════════════════════════════════════════════════════╣
     ║/💻.📡/<: ██████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 🛰 ║
     ╚═════════════════════════════════════════════════════════════════════════════════╝
-
-
+```
 
 IDE FactoryAI: Une interface de programmation intuitive et facile à utiliser qui permet aux développeurs de coder, tester et déployer leurs applications Pi en toute simplicité.
 SDK FactoryAI: Un ensemble d'outils et de bibliothèques logicielles permettant aux développeurs d'intégrer facilement les fonctionnalités de Pi Network dans leurs applications, telles que les transactions Pi, la gestion des comptes et la gestion des données.
@@ -323,8 +319,7 @@ Page Blog
 Section 1 : Articles de blog - Articles sur les dernières actualités, les conseils de développement et les réalisations de la communauté
 Cette structure de site web permet une navigation intuitive et présente clairement les concepts de FactoryAI et Qi-Store aux visiteurs. Elle est conforme aux normes de sémantique W3C, ce qui facilite la compréhension du contenu par les moteurs de recherche et garantit une meilleure accessibilité pour les utilisateurs.
 
-
-# -------------------------------------(({ +mail })}-----------------------------------------------
+--------(({ +mail })}------------------------
 
     ╔═════════════════════════════════════════════════════════════════════════════════╗
     ║[📗 📕 📒]┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈{[┈┈┈┈codex┈┈┈┈┈]}┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈>║   
@@ -405,4 +400,4 @@ html
   </section>
 </article>
 ```
-Notez que les éléments <article>, <time>, <h1> - <h2>, <p> et <section> ont été utilisés pour structurer l'article. Cette structure permet aux moteurs de recherche et aux navigateurs d'interpréter plus facilement le contenu, tout en améliorant l'expérience utilisateur pour vos visiteurs.
+Notez que les éléments [ARTICLE]<article>, [TIME] <time>,[Titre.h1] <h1> - [Titre.h2]<h2>, <p> et[SECTION] <section> ont été utilisés pour structurer l'article. Cette structure permet aux moteurs de recherche et aux navigateurs d'interpréter plus facilement le contenu, tout en améliorant l'expérience utilisateur pour vos visiteurs.
