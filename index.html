@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compteur π-coins</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Distribution de π-coins</h1>
+        <p>Revenu passif :: 500 euro/mois : 6000 an > 1 π-coin = 1 euro</p>
+        <div id="coin-counter">Taux de par seconde : 0</div>
+        <div id="total-coins-distributed">Revenu Passif générée : 0</div>
+        <canvas id="coin-distribution-chart"></canvas>
+    </div>
+    <button id="cycle-reset-btn">Réinitialiser le cycle</button>
+    
+    <script>
+        // ... (your existing code for totalSeconds, totalCoins, etc.) ...
+        // Calculate the total number of seconds in 24 heures
+        const totalSeconds = 365 * 24 * 60 * 60; 
+    
+        // Set the total number of π-coins to be distributed in one cycle
+        const totalCoins = 6000;
+    
+        // Get the initial timestamp in seconds
+        let initialTimestamp = Math.floor(Date.now() / 1000);
+    
+        // Calculate the remaining seconds in the current cycle
+        let secondsInCycle = initialTimestamp % totalSeconds;
+    
+        // Variable to track the total π-coins distributed
+        let totalCoinsDistributed = 0;
+    
+        // Function to calculate the rate of coins per second based on the elapsed time
+        function calculateCoinsPerSecond(elapsedSeconds) {
+            const remainingSeconds = totalSeconds - elapsedSeconds;
+            const distributedCoins = (elapsedSeconds / totalSeconds) * totalCoins;
+            return (totalCoins - distributedCoins) / remainingSeconds;
+        }
+    
+        // Function to update the counter value and the total coins distributed
+        function updateCounter() {
+            const currentTimestamp = Math.floor(Date.now() / 1000);
+            const elapsedSeconds = (currentTimestamp - initialTimestamp + totalSeconds) % totalSeconds;
+    
+            // Update the coins per second rate
+            coinsPerSecond = calculateCoinsPerSecond(elapsedSeconds); // Declare coinsPerSecond here
+
+            // Update the total π-coins distributed based on the elapsed time
+            totalCoinsDistributed = (elapsedSeconds / totalSeconds) * totalCoins;
+    
+            // Update the counter display
+            document.getElementById("coin-counter").innerHTML = `Taux de π-coins par seconde : ${coinsPerSecond.toFixed(4)}`;
+            document.getElementById("total-coins-distributed").innerHTML = `Total de π-coins distribués : ${totalCoinsDistributed.toFixed(4)}`;
+        }
+        let myChart; // Store the Chart instance
+
+        setInterval(() => {
+            updateCounter();
+            updateChartData(coinsPerSecond, totalCoinsDistributed);
+
+            // Destroy the previous chart if it exists
+            if (myChart) {
+                myChart.destroy(); 
+            }
+
+            // Create a new Chart instance
+            const ctx = document.getElementById('coin-distribution-chart').getContext('2d');
+            myChart = new Chart(ctx, {
+                type: 'line',
+                data: chartData,
+                options: {
+                    scales: {
+                        y: { 
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                }
+            });
+        }, 1000);
+ // Reset the cycle when the button is clicked
+ document.getElementById("cycle-reset-btn").addEventListener("click", function() {
+            initialTimestamp = Math.floor(Date.now() / 1000);
+            totalCoinsDistributed = 0; // Reset the distributed coins
+        });
+    
+        let chartData = {
+            labels: [],
+            datasets: [{
+                label: 'π-Coins distribués',
+                data: [],
+                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgba(255, 99, 132, 1)',
+                borderWidth: 1
+            }]
+        };
+
+        // Function to update chart data
+        function updateChartData(coinsPerSecond, totalCoinsDistributed) {
+            chartData.labels.push((chartData.labels.length + 1).toString());
+            chartData.datasets[0].data.push(totalCoinsDistributed);
+        }
+
+        // Update chart after counter update
+        function updateChart() {
+            const ctx = document.getElementById('coin-distribution-chart').getContext('2d');
+            const myChart = new Chart(ctx, {
+                type: 'line',
+                data: chartData,
+                options: {
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true
+                            }
+                        }]
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
