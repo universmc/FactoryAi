@@ -5,40 +5,26 @@ NODE_APP = index.js
 
 COMMANDE1_MSG="✨ Menu ✨"
 
-BUILD_MSG="✨ Lancement de workplan.json✨"
 work_MSG="✨ Lancement de workplan.json✨"
 CTRL_MSG="✨ Lancement du contrôleur NES✨"
 CTRL_MSG="✨ contructor✨"
-EXIT_MSG="✨ Exit api ✨"
-SRC_MSG="✨ /make build.sh SRC✨"
-SAAS_MSG="✨ Lancement du SAAS✨"
+SAASL_MSG="✨ Lancement du SAAS✨"
+quit_MSG="✨ TChao TChahoo✨"
 COMMANDE1_MSG="✨ Lancement de groq server✨"
-
-periodic:
-	@@npx periodic-table-cli
-
-build:
-	@echo "${BUILD_MSG}"
-	@node build.js:
-
-src:
-	@echo "${SRC_MSG}"
-	@node build.js
 
 saas:
 	@echo "${SAAS_MSG}"
 	@npm run saas
-
-src:
-	@echo "${SRC_MSG}"
-	@node incSrc.js
-
-exit:
-	@echo "${EXIT_MSG}"
+commandeQ:
+	@echo "${quit_MSG}"
 
 groq:
 	@echo "${bot_MSG}"
 	@./telegram/groq.js
+
+build:
+	@echo "${bot_MSG}"
+	@./build.sht:
 
 chat:
 	@echo "${bot_MSG}"
@@ -166,10 +152,9 @@ server:
 # Ouvrez-vous aux dimensions cachées
 clean-r:
 	@echo "Returning the quantum realm to pristine state"
-	@rm -r build/*
+	@rm -rf data/* build/* src/* data/*
 
 clean-R:
-	@echo "Unweaving the fabric, a celestial fate"
-	@rm -f build/*
+	@echo "Unweaving the fabric, a celestial fate"@rm -rf output/ build/ src/ data/
 
 clean: clean-r clean-R

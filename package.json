@@ -1,8 +1,8 @@
 {
-    "name": "nowia",
+    "name": "osint",
     "version": "0.1.0",
     "private": true,
-    "main": "index.js",
+    "main": "main.js",
     "scripts": {
         "dev": "next dev",
         "start": "electron .",
