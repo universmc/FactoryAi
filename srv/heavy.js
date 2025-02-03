@@ -1,5 +1,5 @@
 const express = require('express');
-const Tme = require('./runner');
+const Tme = require('../runner');
 
 const port = 1007;
 const app = express();
